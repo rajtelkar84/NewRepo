@@ -35,6 +35,8 @@ public static WebDriver driver;
         robot.keyPress(KeyEvent.VK_ESCAPE);	
         Thread.sleep(2000);	
         robot.keyPress(KeyEvent.VK_ENTER);	
+        
+        robot.keyPress(KeyEvent.VK_ESCAPE);
     // press enter key of keyboard to perform above selected action	
         Thread.sleep(5000);
         driver.quit();
